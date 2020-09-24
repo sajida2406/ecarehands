@@ -4001,6 +4001,7 @@ SERVICES 2
   font-size: 23px;
   margin: 10px 0 8px;
   font-weight: 600;
+  text-align:left;
 }
 .service-box2 p {
   font-size: 13px;
