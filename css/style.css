@@ -1185,7 +1185,7 @@ a:focus {
 }
 
 .video-play-text {
-  padding: 40px 40px;
+  padding: 40px 30px;
 }
 .video-play-text span {
   color: #4d72d0;
@@ -1204,6 +1204,7 @@ a:focus {
   left: -15px;
   width: 100px;
   height: 90px;
+
 }
 .video-play-text a {
   color: #000;
@@ -1494,6 +1495,11 @@ a:focus {
   position: relative;
   color: #fff;
 }
+.why-choose-block a{
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
 .why-choose-block::before {
   position: absolute;
   content: "";
@@ -1503,11 +1509,11 @@ a:focus {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 55%;
+  height: 54%;
 }
 @media (min-width: 768px) {
   .why-choose-block::before {
-    height: 50%;
+    height: 54%;
   }
 }
 @media (min-width: 992px) {
