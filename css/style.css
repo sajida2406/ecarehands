@@ -973,9 +973,10 @@ a:focus {
     display: block;
   }
 }
+
 @media (min-width: 992px) {
   .slider-text-wrap h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -1597,6 +1598,10 @@ a:focus {
   font-weight: 300;
   font-size: 13px;
   margin: 0 0 25px;
+}
+
+#btnid{
+  text-decoration: none;
 }
 
 .choose-icon {
